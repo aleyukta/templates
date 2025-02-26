@@ -1,0 +1,18 @@
+so install black formatter (from microsoft )on extensions.
+then press ctrl shift p 
+then type in settings 
+preferences: open user settings 
+
+paste this :
+
+"[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+    },
+
+
+then ctrl s to save 
+then everythime you save a file it goes into this format !!
